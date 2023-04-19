@@ -1,0 +1,303 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Platform Starts */
+
+
+.platform{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.image img{
+    width: 700px;
+    height: 380px;
+}
+.matter{
+    line-height: 1.8;
+}
+.matter a button{
+    border: 1.5px solid green;
+    border-radius: 3px;
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Platform Ends */
+
+/* Transform Start */
+
+
+.images img{
+    width: 400px;
+    height: 280px;
+}
+.transform{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    background-color: rgb(25, 40, 57);
+    color: white;
+}
+.matter2{
+    line-height: 1.8;
+}
+.matter2 a button{
+    border: 1.5px solid green;
+    border-radius: 3px;
+    background-color: rgb(25, 40, 57);
+    color: white;
+    width: 160px;
+    height: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.arrow{
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.arrow1{
+    display: inline-flex;
+    gap: 20px;
+    
+}
+.arrow1 p{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.arrow1 i{
+    margin-left: -10px;
+    margin-top: 27px;
+    color: green;
+}
+.title2{
+    font-size: 35px;
+}
+
+/* Delicious Food Starts*/
+
+.delicious{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    background-color: rgb(250, 250, 250);
+    color: black;
+}
+.matter3{
+    line-height: 1.5;
+}
+.title3{
+    font-size: 55px;
+    font-weight: 400;
+    font-family: 'Amatic SC', cursive;
+    gap: 10px;
+}
+.image3 img{
+    width: 300px;
+    height: 300px;
+}
+.arrow{
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.line{
+    display: inline-flex;
+}
+.arrow p{
+    margin-left: -25px;
+    margin-top: 20px;
+}
+
+.fa-circle-play{
+    margin-left: 20px;
+    margin-top: 23px;
+    color: red;
+    cursor: pointer;
+}
+.matter3 a button{
+    border: 1.5px solid red;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    width: 160px;
+    height: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Delisious Food Ends */
+
+
+/* App Features Starts */
+
+.features{
+    width: 100%;
+    text-align: center;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+.title4 p{
+    margin-top: 30px;
+    font-size: 30px;
+    color: rgb(0, 91, 165);
+}
+.subtitle3 p{
+    margin-top: 20px;
+    font-size: 15px;
+    
+}
+.group2{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 80px;
+    margin: 10px;
+    
+    
+    
+}
+.lists-type{
+    width: 100%;
+    height: 500px;
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.list1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+.group2 img{
+    width: 400px;
+    height: 370px;
+}
+i{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.content p{
+    font-size: 15px;
+}
+
+/* App Features Ends */
+
+/* Doctors Starts */
+
+.doctors{
+    width: 100%;
+    height: 400px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+}
+.image4 img{
+    margin-left: 20px;
+    width: 500px;
+    height: 300px;
+}
+.title5 p{
+    font-size: 12px;
+}
+.logos{
+    margin-top: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+.logos p{
+    font-size: 10px;
+}
+.para{
+    margin-top: 10px;
+}
+
+/* Doctors Starts */
+
+/* About Starts */
+
+.about{
+    width: 100%;
+    height: 400px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+}
+.image5 img{
+    margin-left: 20px;
+    width: 300px;
+    height: 300px;
+}
+.title6 p{
+    margin-top: 30px;
+    content: '';
+    font-size: 30px;
+    color: black;
+}
+.subtitle6 p{
+    margin-top: 20px;
+    font-size: 15px;
+    
+}
+hr{
+    width: 50px;
+}
+.logos6{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+.logos6 p{
+    font-size: 12px;
+    margin: 10px;
+}
+.logos6{
+    margin-top: 30px;
+    
+}
+.title7 p{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.logo2{
+    margin-left: 100px;
+}
